@@ -43,3 +43,6 @@ resource "aws_elb" "elastic_loadbalancer" {
     }
   }
 }
+resource "aws_ebs_encryption_by_default" "encryption" {
+  enabled = true
+}
