@@ -42,7 +42,7 @@ variable "lb_protocol" {
 variable "access_logs" {
   description = "Block where the log parameters are defined"
   type        = string
-  default     = "false"
+  default     = true
 
 }
 variable "listener" {
